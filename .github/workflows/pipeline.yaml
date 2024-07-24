@@ -1,0 +1,53 @@
+name: Deploy to AWS
+on:
+  push:
+    branches:
+      - main
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+
+  build-and-deploy:
+
+    runs-on: ubuntu-latest
+    env:
+      AWS_ACCOUNT: ${{ secrets.AWS_ACCOUNT }}
+      GIGS_STACK_NAME: YOUR_STACK_NAME_HERE
+      VITE_STACK_NAME: YOUR_STACK_NAME_HERE
+      VITE_SERVER_ADDRESS: https://${YOUR_STACK_NAME_HERE}.infinityworks.academy/api
+      VITE_FLYERS_ADDRESS: https://flyers-${YOUR_STACK_NAME_HERE}.infinityworks.academy
+      AWS_REGION: eu-west-1
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Clean install dependencies
+        working-directory: ./client
+        run: npm ci
+
+      - name: Build react app
+        working-directory: ./client
+        run: npm run build
+
+      - name: Run tests
+        working-directory: ./client
+        run: npm run test
+
+      - name: Clean install CDK and dependencies
+        working-directory: ./cdk
+        run: npm ci
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1-node16
+        with:
+          role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT }}:role/<deployment-role>
+          aws-region: ${{ env.AWS_REGION }}
+          role-duration-seconds: 1200
+
+      - name: CDK deploy
+        working-directory: ./cdk
+        run: npx cdk deploy --require-approval never
