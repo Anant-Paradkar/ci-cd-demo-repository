@@ -4,17 +4,12 @@
 
 echo ""
 echo "Build for GIGS_STACK_NAME=${GIGS_STACK_NAME}"
-echo "          GIGS_DOMAIN    =${GIGS_DOMAIN}"
-echo "..."
 
 gigs_stack_name_lower=$(echo "$GIGS_STACK_NAME" | tr '[:upper:]' '[:lower:]')
 sub_domain=${gigs_stack_name_lower}
 
-gigs_domain_lower=$(echo "$GIGS_DOMAIN" | tr '[:upper:]' '[:lower:]')
-root_domain=${gigs_domain_lower}
-
-export VITE_SERVER_ADDRESS=https://${sub_domain}.${root_domain}/api
-export VITE_FLYERS_ADDRESS=https://flyers-${sub_domain}.${root_domain}
+export VITE_SERVER_ADDRESS=https://${sub_domain}.infinityworks.academy/api
+export VITE_FLYERS_ADDRESS=https://flyers-${sub_domain}.infinityworks.academy
 export VITE_STACK_NAME=${GIGS_STACK_NAME}
 
 echo "...VITE_SERVER_ADDRESS=${VITE_SERVER_ADDRESS}"
