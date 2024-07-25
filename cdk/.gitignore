@@ -1,5 +1,4 @@
 *.js
-!functions/redirects.js
 !jest.config.js
 *.d.ts
 # standard ignores for when we share code out
@@ -11,3 +10,6 @@ dist
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+bootstrap-output.txt
+invoke-output.txt

@@ -1,0 +1,13 @@
+2024-07-25 04:42:20.731 [info] update#setState idle
+2024-07-25 04:42:50.701 [info] update#setState checking for updates
+2024-07-25 04:42:50.707 [info] update#setState available for download
+2024-07-25 04:43:07.856 [info] Extension host with pid 37687 exited with code: 0, signal: unknown.
+2024-07-25 05:04:13.769 [info] Extension host with pid 38486 exited with code: 0, signal: unknown.
+2024-07-25 05:04:13.827 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?),(?,?)). Details: Keys: history.recentlyOpenedPathsList, editorFontInfo Length: 1276
+2024-07-25 05:04:15.282 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?),(?,?),(?,?),(?,?)). Details: Keys: __$__targetStorageMarker, memento/notebookEditors, workbench.activity.placeholderViewlets, workbench.panel.placeholderPanels Length: 4506
+2024-07-25 05:04:15.283 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (DELETE FROM ItemTable WHERE key IN (?)). Details: Keys: editorOverrideService.cache
+2024-07-25 05:04:15.647 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?),(?,?),(?,?)). Details: Keys: memento/notebookEditors, workbench.activity.placeholderViewlets, __$__targetStorageMarker Length: 4156
+2024-07-25 05:04:15.976 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?),(?,?),(?,?),(?,?)). Details: Keys: workbench.activity.placeholderViewlets, __$__targetStorageMarker, workbench.panel.placeholderPanels, workbench.statusbar.hidden Length: 5263
+2024-07-25 05:04:17.613 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: content.trust.model.key Length: 596
+2024-07-25 05:04:20.466 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: workbench.editor.languageDetectionOpenedLanguages.global Length: 68
+2024-07-25 05:05:03.812 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?),(?,?)). Details: Keys: __$__targetStorageMarker, editorOverrideService.cache Length: 1755

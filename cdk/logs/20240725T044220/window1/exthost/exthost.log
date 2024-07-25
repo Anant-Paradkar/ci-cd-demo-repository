@@ -1,0 +1,33 @@
+2024-07-25 04:42:22.591 [info] Extension host with pid 37687 started
+2024-07-25 04:42:22.697 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-25 04:42:22.779 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-07-25 04:42:22.844 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-25 04:42:22.913 [info] Eager extensions activated
+2024-07-25 04:42:22.915 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-25 04:42:22.917 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-25 04:43:07.849 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-25 04:43:07.855 [info] Extension host with pid 37687 exiting with code 0
+2024-07-25 04:43:08.703 [info] Extension host with pid 38486 started
+2024-07-25 04:43:08.703 [info] Skipping acquiring lock for /root/Desktop/ci-github-actions - ci/ci-cd-demo-repository/cdk/User/workspaceStorage/c4fe8c0b14b12d1f68129e1b8c9cf005.
+2024-07-25 04:43:08.729 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-07-25 04:43:08.732 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-07-25 04:43:08.802 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-25 04:43:08.853 [info] Eager extensions activated
+2024-07-25 04:43:08.862 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-25 04:43:08.864 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-25 04:43:11.031 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-07-25 04:43:16.765 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-25 04:43:16.826 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-25 04:43:16.899 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-25 04:45:09.526 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-07-25 05:04:13.726 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-25 05:04:13.767 [info] Extension host with pid 38486 exiting with code 0
+2024-07-25 05:04:15.486 [info] Extension host with pid 56276 started
+2024-07-25 05:04:15.486 [info] Skipping acquiring lock for /root/Desktop/ci-github-actions - ci/ci-cd-demo-repository/cdk/User/workspaceStorage/133ee030b454534857a8096f96c5655f.
+2024-07-25 05:04:15.515 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-07-25 05:04:15.543 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-25 05:04:15.562 [info] Eager extensions activated
+2024-07-25 05:04:15.564 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-25 05:04:15.565 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-25 05:04:17.485 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-07-25 05:04:20.287 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
